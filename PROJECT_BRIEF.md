@@ -336,10 +336,62 @@ three shots should each land in a different one of those contexts rather than st
    literal "wears it to the airport" pitch from the brand's own copy, given an actual story and a
    specific, real pose instead of a generic stock-travel moment.
 
-**Shot template (Page 1 / Shot 1 — MacArthur tee, boat nap, back to camera — fully worked example):**
-> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
+## All 12 Lookbook Prompts (paste-ready — GPT Image 2 via Comfy's `partner_generate`)
 
-**Comfy Cloud workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style/reference image (via `upload_file` + a partner node like `partner_generate`, or as an img2img/IP-Adapter reference — see `docs/comfyui-workflow.md`) before generating Page 1/Shot 1, for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 11 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, framing, setting detail, light, color grade — back-to-camera for Pages 1–3, front-facing/candid for Page 4) before generating; don't paraphrase from the one-line scene descriptions above directly.
+**✅ All 12 shots fully scripted (Ben, latest).** Generation path is decided: **no LoRAs, no
+ControlNet** — every shot below runs as a plain-text prompt through Comfy's `partner_generate`
+node, provider `openai/gpt-image-2`, 9:16. See `docs/comfyui-workflow.md` for the node-level
+detail (this supersedes the older SDXL/LoRA "Path B" in that doc — don't stand that up). Where a
+`references/lifestyle/` image is noted, attach it as a reference image alongside the prompt.
+
+### Page 1 — The MacArthur (cream tee)
+
+**Shot 1 — Boat nap:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
+> Reference: `references/lifestyle/ralph-lauren-boat-nap.jpg` (pose is face-up in the source — this prompt flips it to face-down/back-to-camera, keep that framing even with the reference attached).
+
+**Shot 2 — Sitting on the ledge:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s sitting on the gunwale of a classic wooden sailboat, teak deck, back to camera, legs hanging over the side toward the water, forearms resting loosely on his knees, looking out at the open water — not at camera. He is wearing a cream heavyweight oversized graphic tee, navy shorts, bare feet — the design across the back of the tee clearly visible and unobstructed. Sparkling blue water below him, another sailboat softly out of focus in the distance. Warm mid-afternoon South Florida light. Shot from a slightly elevated three-quarter angle behind him. Color graded warm and slightly faded, film grain, soft halation around bright areas. J.Crew catalog aesthetic — relaxed, unposed, natural light. Feels like a candid moment, not a professional shoot."
+> Reference: `references/lifestyle/jcrew-sailboat-catalog.jpg` for teak-deck light and posture, adapted to a rear angle.
+
+**Shot 3 — At the helm:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s standing near the wheel of a classic wooden sailboat, rear three-quarter angle, one hand resting on the rigging, the wind moving his hair and the hem of his shirt. He is wearing a cream heavyweight oversized graphic tee, navy shorts, bare feet — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — focused out on the water ahead. A white sail fills the upper frame, sparkling water visible past the boat's rail. Warm mid-afternoon South Florida light, slight motion in the fabric of the sail from the wind. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
+
+### Page 2 — The Inlet (deep teal tee)
+
+**Shot 1 — Marina bar:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s standing at a waterfront marina bar rail, rear three-quarter angle, a drink in one hand, mid-conversation with someone just out of frame — not looking at camera. He is wearing a deep teal heavyweight oversized graphic tee, khaki shorts, boat shoes — the design across the back of the tee clearly visible and unobstructed. Golden hour light, the Jupiter lighthouse visible in the distance across the water behind him, boats moored at the dock. Warm South Florida evening light, long shadows. Color graded warm and slightly faded, film grain, soft halation around bright areas. European courtyard energy — unbothered, not performing for camera. Feels like a candid moment from a private roll of film."
+> Reference: `references/lifestyle/european-courtyard-cafe.jpg` for the candid, mid-conversation energy.
+
+**Shot 2 — Walking the dock:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s walking away down a weathered wooden dock toward his boat, back to camera, one hand loosely holding a coiled dock line. He is wearing a deep teal heavyweight oversized graphic tee, khaki shorts, boat shoes — the design across the back of the tee clearly visible and unobstructed. The Jupiter Inlet channel and moored boats visible on both sides, late-day golden light casting long shadows down the dock planks. Warm South Florida evening light. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid moment from a private roll of film, not a professional shoot."
+
+**Shot 3 — Leaning on the piling:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s leaning back against a weathered wooden dock piling, arms crossed, back and shoulder to camera, watching boats pass through the inlet in the distance. He is wearing a deep teal heavyweight oversized graphic tee, khaki shorts — the design across the back of the tee clearly visible and unobstructed. Golden hour light, the Jupiter Inlet channel and passing boats visible past him, water sparkling. Warm South Florida evening light, long shadows. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid moment from a private roll of film."
+
+### Page 3 — Manatee Zone (cream tee, 8pm summer, empty course, friends messing around)
+
+**Shot 1 — Two-up on the cart:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. Two guys in their late 20s/30s riding double on a golf cart down a completely empty fairway, one driving, our guy hanging off the back rail laughing, both clearly not taking the round seriously. He is wearing a cream heavyweight oversized graphic tee, back to camera, the design across the back clearly visible and unobstructed. 8pm in a Florida summer — still light out, the course empty and quiet, long shadows stretching across the grass, sky just starting to go warm orange at the edges. The cart kicking up a little dust as it pulls away from camera. Color graded warm and slightly faded, film grain, soft halation around bright areas. Loose, social, candid — feels like a photo from someone's phone, not a professional shoot."
+
+**Shot 2 — Not-serious tee shot:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A guy in his late 20s/30s teeing off one-handed, a drink in his other hand, clearly not a real golf swing, barefoot on the tee box. Back to camera, wearing a cream heavyweight oversized graphic tee, the design across the back clearly visible and unobstructed. A couple of buddies cracking up just off to the side, out of focus. The entire course behind him empty and quiet, 8pm Florida summer light, long shadows, sky starting to go warm orange at the edges. Color graded warm and slightly faded, film grain, soft halation around bright areas. Loose, goofy, unposed — feels like a candid snapshot, not a professional shoot."
+
+**Shot 3 — Sprawled on the green at dusk:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A small group of guys in their late 20s/30s sprawled out and sitting on a putting green at dusk, drinks sitting in the grass beside them, one of them attempting a trick putt with his foot, everyone mid-laugh. Our guy in the foreground, back to camera, wearing a cream heavyweight oversized graphic tee, the design across the back clearly visible and unobstructed. Empty golf course around them, dusky purple-orange sky at the horizon, 8pm Florida summer light fading. Color graded warm and slightly faded, film grain, soft halation around bright areas. Loose, social, unposed — feels like a candid snapshot from someone's phone, not a professional shoot."
+
+### Page 4 — The Burgee essentials tee (cream tee, front-facing OK — no back graphic to protect)
+
+**Shot 1 — Walking off 18:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s walking off the 18th green toward the clubhouse at dusk, golf bag slung over one shoulder, three-quarter angle toward camera. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo on the left chest, khaki shorts. Not looking at camera, relaxed, unposed. 8pm Florida summer light, long shadows, sky starting to go warm orange at the edges, clubhouse lights just visible in the background. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid moment from a private roll of film."
+
+**Shot 2 — Clubhouse porch, cocktail hour:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s leaning on a clubhouse porch rail, a drink in hand, mid-conversation with someone just out of frame, golden hour light. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo clearly visible on the left chest, khaki shorts. Relaxed, unposed, not looking at camera. Warm South Florida evening light, string lights or porch lanterns starting to glow behind him. Color graded warm and slightly faded, film grain, soft halation around bright areas. European courtyard energy — unbothered, not performing for camera."
+
+**Shot 3 — The airport, heading home:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A guy in his early-to-mid 20s sitting at an airport departure gate, straddling his carry-on suitcase and sitting on top of it, the extended handle between his legs, killing time before his flight. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo visible on the left chest, shorts, sneakers. Looking down at his phone or staring off, not at camera — content, a little tired, just finished visiting his parents at the club, headed home. Departure gate and terminal windows visible in the soft-focus background, ordinary indoor terminal light. Color graded warm and slightly faded, film grain. Feels like a candid photo, not a professional shoot."
+
+**Comfy Cloud workflow note:** Provider `openai/gpt-image-2` via `partner_generate`, 9:16, no LoRA/ControlNet setup needed for any of these. Where a reference image is noted, upload it via `upload_file` first. If garment input is supported, upload the relevant Printful mockup alongside the prompt so the exact graphic/color renders correctly; otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. Generate 2–3 seed variants per shot and keep the best — per the hard rules above, discard anything that goes front-facing on Pages 1–3 or fails to show the back graphic clearly.
 
 ---
 
@@ -373,7 +425,7 @@ three shots should each land in a different one of those contexts rather than st
 - [ ] Simplify Drop 3 into a small-scale left-chest version (current file is sized/detailed for a back graphic, not a ~3" chest mark) — same asset used for both the chest placement on Drops 1/2/4 and the standalone Page 4 essentials tee
 - [ ] Export all graphics as transparent PNGs (Drop 3 already transparent; Drops 1, 2, 4 still need this pass)
 - [ ] Run all four shirts (three back-graphic + chest burgee, one chest-burgee-only) through Printful mockup generator
-- [ ] Generate the 12 lookbook lifestyle shots (4 shirts × 3 scene shots each — see "Lookbook Scene Map"), starting with Page 1/Shot 1 (boat nap, MacArthur tee — fully scripted already)
+- [ ] Generate the 12 lookbook lifestyle shots — all fully scripted now, see "All 12 Lookbook Prompts," paste-ready via Comfy's GPT Image 2 partner node
 - [ ] Build lookbook microsite
 - [ ] Structure and rehearse the Admirals Cove GM pitch
 

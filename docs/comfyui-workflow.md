@@ -1,5 +1,11 @@
 # ComfyUI workflow — capsule graphics (style + composition)
 
+**⚠️ Decided (Ben, latest): no LoRAs, no ControlNet — Path A only.** Lifestyle images run
+entirely as **GPT Image 2 prompts through Comfy's `partner_generate` node**. **Path B below (SDXL
++ style LoRA + ControlNet) is dead — do not stand it up.** `docs/comfy-cloud-loras.md` is kept for
+historical record only and should not be acted on. This applies to lifestyle photography for
+sure; treat it as the default for capsule graphics too unless Ben says otherwise.
+
 **Why this is easier than the LonnieAI pipeline:** LonnieAI needed three independent locks
 (identity + style + pose) because it was rendering a *recognizable real person*. Seagrape's
 drops are objects and scenes, not faces — there's no identity to hold. That collapses the
@@ -22,8 +28,9 @@ Tune each drop until it's clearly the same illustration system *and* clearly the
 Comfy Cloud's **partner nodes** (Nano Banana Pro / GPT Image 2, via `partner_generate`) take the
 drop prompt as-is, no custom nodes required. This is the fastest way to see whether a strong
 prompt alone lands the flat-woodcut look:
-- Provider: `google/nano-banana-pro` (or `openai/gpt-image-2`), 9:16 or the print aspect noted
-  per drop in `PROJECT_BRIEF.md`.
+- Provider: **`openai/gpt-image-2`** (confirmed choice for lifestyle images; Nano Banana Pro is a
+  fallback worth trying if GPT Image 2 underperforms on a given shot), 9:16 or the print aspect
+  noted per drop in `PROJECT_BRIEF.md`.
 - For the three photo-referenced drops, attach Ben's reference photo as image 1 and role-tag it:
   *"REFERENCE IMAGE 1: use ONLY for composition/perspective/subject placement — a real photo,
   reproduce the layout but ignore that it's a photograph. Do not render it photoreal."*
@@ -37,7 +44,7 @@ prompt alone lands the flat-woodcut look:
   it with more instruction, and treat hero typography as a separate clean-up pass (Illustrator/
   Photoshop) rather than something the model must get pixel-perfect in one shot.
 
-## Path B — fallback / full control (SDXL, if Path A underperforms)
+## Path B — ❌ NOT IN USE (kept for record only, see note at top of doc)
 
 ### Recommended stack
 - **Checkpoint:** an SDXL model with an illustrative/print lean, or base SDXL + a style LoRA (see

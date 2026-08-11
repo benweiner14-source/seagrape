@@ -1,5 +1,9 @@
 # Candidate LoRAs to upload to Comfy Cloud (SDXL 1.0)
 
+**❌ NOT IN USE — kept for historical record only.** Ben decided against LoRAs/ControlNet
+entirely (see the note at the top of `docs/comfyui-workflow.md`) — everything runs as GPT Image 2
+prompts via Comfy's `partner_generate` node instead. Don't act on anything below this line.
+
 If `docs/comfy-cloud-catalog.md` confirms the same gap LonnieAI hit — no illustrative/print style
 in the default catalog, photoreal base only — these are starting candidates to search Civitai for
 (free account), matched to the SDXL 1.0 base. **Confirm SDXL 1.0 compatibility before pulling** —
