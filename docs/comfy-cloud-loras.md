@@ -9,7 +9,7 @@ don't use Illustrious, Pony, or SD1.x LoRAs against an SDXL 1.0 checkpoint, they
 Search Civitai for terms close to the brand's actual reference language in `PROJECT_BRIEF.md`:
 - **"woodcut" / "linocut" / "block print"** — hand-cut ink-line texture, the core of the look.
 - **"vintage travel poster" / "WPA poster style"** — flat color, confident line, period-accurate
-  (1930s–60s) graphic feel; good match for the Drop 1 / Drop 5 back-graphic compositions.
+  (1930s–60s) graphic feel; good match for the Drop 1 back-graphic composition.
 - **"botanical illustration" / "field guide"** — closest match for the logo's tree icon
   specifically; look for SDXL LoRAs trained on antique naturalist plates.
 - **"screen print" / "riso" / "risograph"** — flat, limited-color, slightly misregistered texture;

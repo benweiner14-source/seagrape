@@ -78,11 +78,12 @@ full node plan.
 
 ---
 
-## Reusing this for the other drops
-Duplicate this file, swap the **Load Image** for that drop's reference photo (Drop 1, Drop 5 —
-skip this node entirely for Drop 3 / the logo, which have no photo reference), and swap the
-positive/negative prompt text for that drop's from `PROJECT_BRIEF.md`. Keep the color-count line
-in the prompt exact — that's the one thing that has to hold for a screen print to work.
+## Reusing this for the other designs
+Duplicate this file, swap the **Load Image** for Drop 1's reference photo if regenerating that one
+(skip this node entirely for the logo or the Drop 3 chest burgee, which have no photo reference),
+and swap the positive/negative prompt text for that design's from `PROJECT_BRIEF.md`. Keep the
+color-count line in the prompt exact — that's the one thing that has to hold for a screen print
+to work. (Drop 5 is nixed — cut from the capsule, no longer a target here.)
 
 ## If something breaks
 - **Red node / "missing"**: tell me the node name; for this file it should only be a mismatched

@@ -3,8 +3,13 @@
 You are picking up one slice of a larger project: generating the print-ready illustrated
 graphics for **Seagrape Supply Co.'s** Admirals Cove capsule via ComfyUI / Comfy Cloud.
 Everything you need is in this repo; this brief is self-contained. **Read `PROJECT_BRIEF.md` at
-the repo root too** — it's the fuller project memory (brand, business model, all five drops'
-full generation prompts).
+the repo root too** — it's the fuller project memory (brand, business model, full generation
+prompts for all three shirts + the universal chest logo).
+
+**⚠️ Capsule structure changed since this doc was first written — read `PROJECT_BRIEF.md`'s
+"Construction decision" note under "The Capsule" header before doing anything else.** It's now
+**3 back designs (Drops 1, 2, 4) + one universal small left-chest burgee logo (repurposed from
+Drop 3)** on every shirt — not 4-5 independent drops. Drop 5 (channel markers) is nixed entirely.
 
 ## Repo & assets
 - **Repo:** `benweiner14-source/seagrape`  **Branch:** `claude/seagrape-repo-setup-gfmnyb`
@@ -20,37 +25,34 @@ full generation prompts).
   - `PROJECT_BRIEF.md` — every drop's full generation prompt, locked colors, blank/placement
 
 ## ⚠️ Reference photos aren't in the repo yet
-`PROJECT_BRIEF.md` describes photos Ben took on the water (channel marker 52, channel marker 49,
-the Manatee Zone sign, a close-up of it, and the actual Admirals Cove burgee) but they haven't
-been committed to this repo — this web session doesn't have image upload access. Before running
-the photo-referenced drops (1, 4, 5) properly, get those files into
+`PROJECT_BRIEF.md` describes photos Ben took on the water (the Manatee Zone sign, a close-up of
+it, and the actual Admirals Cove burgee) but they haven't been committed to this repo. Before
+regenerating Drop 4 or the small-scale Drop 3 chest logo, get those files into
 `capsules/admirals-cove/refs/` (ask Ben to drop them in, or upload via Comfy Cloud's
-`upload_file` tool directly if you just need them in-session). Drop 3 (burgee) and the logo can
-proceed from text description alone since their geometry is simple and fully specified in the
-prompt.
+`upload_file` tool directly if you just need them in-session). The channel-marker photos listed
+in that folder's README were for the now-nixed Drop 5 and are no longer needed for this capsule.
 
 ## The goal
-Generate each of the five drops (see `PROJECT_BRIEF.md` for full prompts) as a **print-ready,
-flat-color vintage illustration** — loose woodcut / botanical-field-guide linework, confident and
-slightly worn, screen-print-safe (each drop has a locked 2–4 color palette tied to a specific
-Comfort Colors 1717 blank). Output needs a transparent background so it can go straight into the
-Printful mockup generator.
+Generate the capsule's **3 back designs + 1 universal chest logo** (see `PROJECT_BRIEF.md` for
+full prompts) as **print-ready, flat-color vintage illustration** — loose woodcut /
+botanical-field-guide linework, confident and slightly worn, screen-print-safe (each has a locked
+2–4 color palette tied to a specific Comfort Colors 1717 blank). Output needs a transparent
+background so it can go straight into the Printful mockup generator.
 
-## Status per drop (don't re-generate what's already approved)
-| Drop | Name | Status | Notes |
+## Status per design (don't re-generate what's already approved)
+| Design | Placement | Status | Notes |
 |---|---|---|---|
-| 1 | The Inlet (lighthouse from water) | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-1-the-inlet.png` | Nails the off-center, water-level composition. Still needs the transparent-background export pass (teal fill = shirt color) |
-| 2 | The MacArthur (editorial still life) | ✅ **Generated & approved via Higgsfield** — treat as the style bar to match, don't re-run — `capsules/admirals-cove/drops/drop-2-the-macarthur.png` | Center chest, cream blank |
-| 3 | The Burgee (flag typography) | ✅ Generated via Higgsfield, already transparent — `capsules/admirals-cove/drops/drop-3-the-burgee.png` | Direction changed from the original icon+wordmark spec to an integrated typographic pennant — confirm with Ben which version to lock in before batching variants |
-| 4 | Manatee Zone (speed sign) | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-4-manatee-zone.png` | Still needs the transparent-background export pass (cream fill = shirt color) |
-| 5 | Red Right Returning (channel markers) | Not yet generated | Two markers, two colors, symmetrical-but-not composition — best next Comfy target now that a reference photo is still needed, see `capsules/admirals-cove/refs/` |
+| 1 — The Inlet (lighthouse from water) | Back | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-1-the-inlet.png` | Nails the off-center, water-level composition. Still needs the transparent-background export pass (teal fill = shirt color) |
+| 2 — The MacArthur (editorial still life) | Back | ✅ **Generated & approved via Higgsfield** — treat as the style bar to match, don't re-run — `capsules/admirals-cove/drops/drop-2-the-macarthur.png` | Still needs the transparent-background export pass |
+| 3 — The Burgee | **Small, left chest — universal across all 3 shirts** | ✅ Generated via Higgsfield, already transparent — `capsules/admirals-cove/drops/drop-3-the-burgee.png` | Sized/detailed for a back graphic (full "ADMIRALS COVE — JUPITER FL — EST. 1987" typographic pennant), not a small chest mark — **needs a simplified small-scale regeneration** before use, see `PROJECT_BRIEF.md`'s Drop 3 section |
+| 4 — Manatee Zone (speed sign) | Back | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-4-manatee-zone.png` | Still needs the transparent-background export pass (cream fill = shirt color) |
+| ~~5 — Red Right Returning~~ | — | ❌ **Nixed, cut from the capsule** | No longer part of this project |
 
-**Note:** Drops 1, 3, and 4 above were generated via **Higgsfield directly**, not yet through
+**Note:** Designs 1, 3, and 4 above were generated via **Higgsfield directly**, not yet through
 Comfy — same as Drop 2. Comfy Cloud is still unused for this project's actual output so far;
 `docs/comfy-cloud-catalog.md` is still a template. If Higgsfield keeps landing the locked style
 this well, it may not be worth standing up the full Comfy pipeline at all except as a fallback —
-worth a call once Drop 5 (the one remaining drop, and the one most likely to need real
-composition control from a reference photo) is tested.
+worth a call once the Drop 3 chest-logo resize (the one remaining generation task) is tested.
 
 ## Hard constraints (do not violate)
 - **Style must stay flat illustration, not photoreal and not glossy digital art.** This project's
@@ -80,11 +82,11 @@ pending.
 
 ## Current recommended path — try this first
 **Path A from `docs/comfyui-workflow.md`**: Comfy Cloud's partner node (`partner_generate`,
-provider `google/nano-banana-pro` or `openai/gpt-image-2`) with the drop's prompt as-is — no
-LoRA/ControlNet setup needed. Start with **Drop 4 (Manatee Zone)** — it has the clearest
-composition reference once Ben's photo is in `capsules/admirals-cove/refs/`, and there's a
-starter Comfy workflow already wired to it in `comfyui/` if Path A underperforms and you need
-Path B's real ControlNet control.
+provider `google/nano-banana-pro` or `openai/gpt-image-2`) with the relevant prompt as-is — no
+LoRA/ControlNet setup needed. The one open generation task is the **Drop 3 small-scale chest
+logo** — start there (it's pure text/geometry, no photo reference needed). If Ben wants any of
+Drops 1/2/4 regenerated too, there's a starter Comfy workflow in `comfyui/` (currently wired to
+the Manatee Zone prompt) for Path B's real ControlNet control if Path A underperforms.
 
 ## Tuning
 - Too photoreal / too glossy → see the dials table in `docs/comfyui-workflow.md`.
@@ -96,8 +98,8 @@ Path B's real ControlNet control.
 
 ## Definition of done
 A transparent-background, print-ready illustration that reads clearly as the same locked
-vintage-woodcut style as the approved Drop 2, matches the drop's locked color palette exactly,
-and — for Drops 1/4/5 — recognizably holds the real composition from Ben's reference photo. Save
-outputs, run them through the Printful mockup generator to sanity-check on the actual blank, and
-report back which settings worked so the recipe can be locked and repeated across the remaining
-drops (and later, other clubs).
+vintage-woodcut style as the approved Drop 2, matches the design's locked color palette exactly,
+and — for Drop 4 specifically — recognizably holds the real composition from Ben's reference
+photo. Save outputs, run them through the Printful mockup generator to sanity-check on the actual
+blank, and report back which settings worked so the recipe can be locked and repeated (and later,
+applied to other clubs).

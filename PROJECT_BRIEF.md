@@ -89,14 +89,32 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 
 ---
 
-## The Capsule — Five Drops
+## The Capsule — Four Drops *(originally five — Drop 5 nixed, see below)*
+
+**✅ Construction decision (Ben, latest):** every tee in the capsule carries **two** elements —
+a **small Admirals Cove burgee on the left chest** (the same small logo, front, on every tee in
+the capsule — not a per-drop design) **plus** that drop's full illustrated graphic on the **back**.
+This repurposes **Drop 3 ("The Burgee")** — it's no longer a standalone fourth back-graphic drop,
+it's the universal small front-chest mark used on all of them. Practical effect:
+- **Drop 3's generated design** (`capsules/admirals-cove/drops/drop-3-the-burgee.png`) is a large,
+  fully-legible typographic pennant ("ADMIRALS COVE" set into the flag, "JUPITER, FL — EST. 1987"
+  beneath) — sized and detailed for a *back* placement, not a small ~3" left-chest mark. Before
+  this can be used as the universal chest logo it likely needs a **simplified, smaller-scale pass**
+  (less/no body text, cleaner at small size) — flag this to Ben rather than assuming the current
+  file is chest-ready as-is.
+- **Drops 1, 2, and 4** are the three back graphics this capsule now actually sells; each one's
+  tee also carries the small burgee on the left chest, front. Update each mockup/production spec
+  to include both placements, not just the back.
+- **Lifestyle shots:** still primarily back-focused per the hard rule below (that's where the real
+  graphic reads), but a front detail/flat-lay shot showing the small chest burgee is worth adding
+  to the lookbook as a secondary shot per tee, since it's no longer visible in a pure back shot.
 
 ### Drop 1 — "The Inlet" (Lighthouse from the Water)
 **Status:** ✅ Generated — see `capsules/admirals-cove/drops/drop-1-the-inlet.png`. Nails the target direction: lighthouse emerges off-center from the treeline at water level, marsh grass foreground, not the earlier symmetrical-flanked-by-palms miss. Deep teal fill still needs the transparent-background export pass before it's mockup-ready (teal = shirt color, not a printed background — see the AI Tool Stack workflow note below). Pending Ben's final approval.
 
 **Blank:** Deep teal Comfort Colors 1717 (match to Blue Spruce or Dark Teal colorway)
 **Colors:** Cream illustration, brick red on lighthouse tower only, teal = shirt color (transparent background)
-**Placement:** Full back graphic
+**Placement:** Full back graphic, **plus the small Admirals Cove burgee on the left chest** (universal across the capsule — see Drop 3 above)
 
 **Generation prompt:**
 > "Vintage woodcut illustration showing the view from the water looking back toward Jupiter Inlet — the perspective of a boater who has just passed through the inlet channel. The Jupiter lighthouse stands on the bluff to the right, reddish-brown brick, seen from a low water-level angle. Composition in three layers: marsh grass and coastal scrub in the immediate foreground, the Loxahatchee River across the middle ground with subtle water texture and reflection, dense Florida tree line along the far bank with the reddish-brown Jupiter lighthouse rising above the canopy — tall, narrow, slightly off-center to the right. Asymmetric natural composition. The lighthouse emerges from the treeline, not standing alone. Woodcut style, hand-drawn ink lines, confident and slightly worn. Three colors — deep teal background, cream illustration, brick red on the lighthouse tower only. The foreground marsh grass adds depth and frames the scene from below. Bottom text: 'ADMIRALS COVE — JUPITER INLET' in small condensed serif, 'EST. 1987' beneath. No border, no frame. Feels like an illustration from a 1960s boating or fishing magazine. Print-ready for back of a deep teal Comfort Colors heavyweight tee."
@@ -110,7 +128,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 
 **Blank:** Cream or Ivory Comfort Colors 1717
 **Colors:** Black ink line work, minimal warm accent on whiskey glass, cream background
-**Placement:** Center chest
+**Placement:** Full back graphic *(changed from original "center chest" spec)*, **plus the small Admirals Cove burgee on the left chest** (universal across the capsule — see Drop 3 above; this is the actual chest element now, not this drop's own graphic)
 
 **Visual:** Loose editorial still life — surveyor's compass, hand-drawn canal map, vintage shovel, Florida Land Deed document (text legible), glass of whiskey. Objects casually arranged, not symmetrical.
 
@@ -120,17 +138,22 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 
 ---
 
-### Drop 3 — "The Burgee" (Flag Typography)
-**Status:** ✅ Generated — see `capsules/admirals-cove/drops/drop-3-the-burgee.png`. Already exported with a transparent background. Note: the generated version evolved from the original concept — instead of a solid navy pennant icon with the wordmark set below it, the text ("ADMIRALS COVE") is set directly into the flag body following its curve, with a single navy circle (not the copper/bronze called for in the prompt below) and "JUPITER, FL — EST. 1987" beneath. Flag it to Ben as a direction change to confirm before finalizing — either lock this typographic-pennant version in as the new Drop 3, or regenerate closer to the original icon+wordmark spec.
+### Drop 3 — "The Burgee" → repurposed as the universal left-chest logo
+**Status:** ✅ Generated (`capsules/admirals-cove/drops/drop-3-the-burgee.png`), already transparent — **but role changed.** This is no longer a standalone back-graphic drop; per Ben's latest call (see "Construction decision" under "The Capsule" header above) it's now the **small burgee mark printed on the left chest of every tee in the capsule**, front, alongside whichever back design that tee carries. The generated version (text set into the flag's curve, single navy circle, "JUPITER, FL — EST. 1987" beneath — a change from the original icon+wordmark-below concept described below) is fully legible at back-graphic size but likely too detailed for a small chest mark — **needs a simplified/smaller-scale pass before use**, not yet confirmed chest-ready.
 
-**Blank:** Cream Comfort Colors 1717
+**Blank:** left chest of every capsule tee (cream, teal, or whatever the base colorway is — small mark, not tied to one blank)
 **Colors:** Navy blue, copper/bronze, cream
-**Placement:** Center chest
+**Placement:** Small, left chest — **universal across the whole capsule**, not a per-drop back placement
 
 **The actual Admirals Cove burgee:** Navy blue pennant flag pointing right, mounted on vertical pole on left side, single copper/bronze circle off-center in the flag body. Flat, no gradients.
 
-**Generation prompt:**
+**Generation prompt (original — produced the current back-scaled version, kept for record):**
 > "Minimal graphic tee design. A flat geometric burgee pennant flag — navy blue, pointing right, mounted on a vertical pole on the left. Inside the flag body, a copper/bronze circle sits slightly left of center. The text 'ADMIRALS COVE' is set in a tight condensed vintage serif directly below the flag, with 'JUPITER, FL — EST. 1987' in smaller weight beneath it. Navy blue, copper, and cream only. Three colors maximum. Flat, no gradients, no shadows, no texture. Clean like a classic yacht club pennant badge. Print-ready for center chest placement on a cream Comfort Colors heavyweight tee. The flag geometry should match a traditional burgee — tall narrow pennant with a pointed tail."
+
+**Still needed:** a simplified small-scale version for the actual left-chest placement — likely
+just the flag icon (pointing right, pole on left, copper/bronze circle) with little or no body
+text, since "ADMIRALS COVE — JUPITER, FL — EST. 1987" set in full won't stay legible at chest
+size. Regenerate once Ben confirms how much text (if any) survives at that scale.
 
 ---
 
@@ -139,7 +162,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 
 **Blank:** Cream Comfort Colors 1717
 **Colors:** Cream background, dark navy illustration, orange on sign border, red circle on sign face
-**Placement:** Full back graphic
+**Placement:** Full back graphic, **plus the small Admirals Cove burgee on the left chest** (universal across the capsule — see Drop 3 above)
 
 **Reference:** Actual photo taken by Ben on the Jupiter waterway. White sign, orange border, bold block text reading "MANATEE ZONE / SLOW SPEED / MINIMUM WAKE" with a plain red circle (no slash) on the sign face. Mounted on two weathered barnacled wooden pilings rising from the water.
 
@@ -151,7 +174,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 ---
 
 ### Drop 5 — "Red Right Returning" (Channel Markers)
-**Status:** Prompt written, not yet generated.
+**Status:** ❌ **NIXED — cut from the capsule.** The capsule is now four drops (1, 2, 3, 4). Kept here for record in case this gets revisited for a future capsule/club. Reference photos for markers 49/52 (if Ben still has them) are no longer needed for this capsule but may be useful later.
 
 **Blank:** Deep teal Comfort Colors 1717
 **Colors:** Deep teal background, cream illustration, brick red on marker 52, forest green on marker 49
@@ -211,20 +234,64 @@ each image to what to pull from it (composition vs. grade vs. candid energy) —
 relevant one as a style reference when generating, same pattern as the Higgsfield workflow note
 below.
 
+**⚠️ HARD RULE — every graphic prints on the BACK of the tee (see "The Capsule" header).**
+Every lifestyle shot must show the **back** of the garment — subject facing away from camera,
+a rear three-quarter angle, or looking back over a shoulder. A straight-on front/chest shot
+hides the graphic entirely and is not usable, no matter how good the framing otherwise looks.
+Several of the `references/lifestyle/` images (the boat nap shot especially) are face-up/
+chest-forward in their original form — pull the *lighting, setting, and unbothered energy* from
+those, but flip the actual pose so his back reads clearly to camera.
+
 **Higgsfield prompt formula:**
-> "35mm film photography, slightly overexposed, warm grain, [location], [subject — late 30s man], wearing a [color] heavyweight oversized graphic tee, [styling — shorts, sandals, sunglasses], [candid action — not looking at camera], natural afternoon light, South Florida, [setting detail], 1980s editorial magazine feel, Ralph Lauren campaign aesthetic, color graded warm and slightly faded"
+> "35mm film photography, slightly overexposed, warm grain, [location], [subject — late 30s man], back to camera or rear three-quarter angle, wearing a [color] heavyweight oversized graphic tee with the design visible across the back, [styling — shorts, sandals, sunglasses], [candid action — not looking at camera], natural afternoon light, South Florida, [setting detail], 1980s editorial magazine feel, Ralph Lauren campaign aesthetic, color graded warm and slightly faded"
 
-**Five shots planned for lookbook:**
-1. Guy on teak boat deck, newspaper on chest, MacArthur tee — boat nap composition
-2. Guy at marina bar, golden hour, Lighthouse tee
-3. Guy stepping off center console at dock, Manatee Zone tee
-4. Overhead shot on boat deck, Channel Markers tee — J.Crew sailboat angle
-5. Guy at bag drop, caddie in background, Burgee tee
+## Lookbook Scene Map
 
-**Shot 1 prompt (MacArthur tee — boat nap):**
-> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying on the bow of a classic wooden sailboat, teak deck, arms behind his head, a folded newspaper resting on his chest. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes. Not looking at camera — completely unbothered, eyes closed or hidden. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above, looking down at the subject on the deck. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
+**✅ Structure locked (Ben, latest):** one scene per shirt, **3 lifestyle images per shirt
+design**, one shirt per lookbook page. Three shirts in the capsule (Drop 1, 2, 4 — Drop 3 is the
+universal chest burgee, not its own page) → **9 lifestyle images total.** Every shot in every
+scene still follows the back-visible hard rule above — the scene changes, the back-to-camera
+framing discipline doesn't.
 
-**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Shot 1 — it's the exact boat nap composition this prompt describes. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop.
+### Page 1 — The MacArthur → Scene: **the sailboat**
+Classic wooden sailboat, teak deck, out on the water. Ties to the club's boating identity broadly
+(the MacArthur design itself is a land/canal story — the sailboat is the "boating half of golf
+and boating" setting, not a literal illustration of the canal story).
+1. **Boat nap** — guy face-down/napping on the bow, back to camera. Full prompt already written
+   below (this is the existing Shot 1 prompt, unchanged) — reference:
+   `references/lifestyle/ralph-lauren-boat-nap.jpg` for lighting/setting only (its pose is
+   face-up, flip it per the prompt).
+2. **Sitting on the ledge** — guy seated on the boat's gunwale/ledge, back to camera, legs hanging
+   over the side toward the water, forearms resting on his knees, looking out at the water, not at
+   camera. Reference: `references/lifestyle/jcrew-sailboat-catalog.jpg` for the teak-deck light
+   and relaxed posture, adapted to a rear angle.
+3. **At the helm** — guy standing near the wheel/mast, rear three-quarter angle, one hand on the
+   rigging, wind moving his hair/shirt, sail visible in frame, mid-afternoon light.
+
+### Page 2 — The Inlet → Scene: **the marina / the inlet itself**
+At the dock near Jupiter Inlet, golden hour, the lighthouse visible in the distance — the real
+place the design depicts.
+1. **Marina bar** — guy at a waterfront marina bar/rail, rear three-quarter angle, golden hour,
+   lighthouse visible across the water in the background, drink in hand, relaxed conversation
+   energy (pull candid-energy cues from `references/lifestyle/european-courtyard-cafe.jpg`).
+2. **Walking the dock** — guy walking away down a wooden dock toward his boat, back to camera,
+   inlet channel and boats behind him, late-day light.
+3. **Leaning on the piling** — guy leaning back against a dock piling/rail, arms crossed or hands
+   in pockets, back/shoulder to camera, watching boats pass through the inlet.
+
+### Page 3 — Manatee Zone → Scene: **the center console, on the water**
+Idling a center console boat through a real no-wake zone — the literal context the sign lives in.
+1. **Stepping off at the dock** — guy stepping off the center console onto the dock, back to
+   camera, boat and water behind him, dock line in hand.
+2. **Idling through mangroves** — guy at the helm of the center console, back/rear three-quarter
+   to camera, one hand on the wheel, moving slow through a mangrove-lined no-wake channel.
+3. **Tying off** — guy bent slightly at the dock cleat tying off a line, back and shoulders to
+   camera, boat alongside, the graphic reading clearly across his back even in the bent-forward pose.
+
+**Shot template (Page 1 / Shot 1 — MacArthur tee, boat nap, back to camera — fully worked example):**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
+
+**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Page 1/Shot 1 for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 8 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, back-to-camera framing, setting detail, light, color grade) before generating; don't paraphrase from the one-line scene descriptions above directly.
 
 ---
 
@@ -234,8 +301,9 @@ below.
 
 **Structure:**
 1. Seagrape Supply Co. brand intro — what the studio is, the thesis
-2. Admirals Cove capsule — the story, the five drops
-3. Each drop: graphic flat lay + lifestyle shot + drop name and brief story
+2. Admirals Cove capsule — the story, the three shirts (+ the universal chest burgee)
+3. **One page per shirt** (see "Lookbook Scene Map" above): graphic flat lay (back design + chest
+   burgee detail) + the shirt's 3 scene lifestyle shots + shirt name and brief story
 4. Pre-order CTA and pricing
 
 **Color direction:** Split — dark navy/teal hero sections, cream/warm product sections
@@ -248,13 +316,14 @@ below.
 
 - [ ] Generate Seagrape Supply Co. logo (prompt above — run in Recraft + Ideogram)
 - [x] Generate Drop 1 final version (lighthouse from water) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-1-the-inlet.png`)
-- [x] Generate Drop 3 (burgee flag) — generated, direction changed from original concept, pending Ben's confirmation (`capsules/admirals-cove/drops/drop-3-the-burgee.png`)
+- [x] Generate Drop 3 (burgee flag) — generated, **role changed to universal left-chest logo** (see "Construction decision" under "The Capsule"), pending Ben's confirmation (`capsules/admirals-cove/drops/drop-3-the-burgee.png`)
 - [x] Generate Drop 4 (manatee zone sign) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-4-manatee-zone.png`)
-- [ ] Generate Drop 5 (channel markers — prompt above)
+- [x] ~~Generate Drop 5 (channel markers)~~ — nixed, cut from the capsule
+- [ ] Ben to send: the Seagrape Supply Co. logo, and slightly-updated versions of the existing drop designs (owed, not yet uploaded)
+- [ ] Simplify Drop 3 into a small-scale left-chest version (current file is sized/detailed for a back graphic, not a ~3" chest mark)
 - [ ] Export all graphics as transparent PNGs (Drop 3 already transparent; Drops 1, 2, 4 still need this pass)
-- [ ] Run all five drops through Printful mockup generator
-- [ ] Generate lifestyle shots in Higgsfield (start with Shot 1 — boat nap, MacArthur tee)
-- [ ] Generate remaining 4 lifestyle shots
+- [ ] Run all three shirts (back graphic + chest burgee each) through Printful mockup generator
+- [ ] Generate the 9 lookbook lifestyle shots (3 shirts × 3 scene shots each — see "Lookbook Scene Map"), starting with Page 1/Shot 1 (boat nap, MacArthur tee — fully scripted already)
 - [ ] Build lookbook microsite
 - [ ] Structure and rehearse the Admirals Cove GM pitch
 

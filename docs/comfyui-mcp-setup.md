@@ -51,8 +51,9 @@ Ask Claude Code to call `get_server_info` (and `get_billing_status`). If they re
 ## Step 5 — First run (what to tell local Claude Code)
 Point it at the plan already written for this:
 > Read `PROJECT_BRIEF.md`, `docs/comfyui-handoff.md`, and `docs/comfy-cloud-catalog.md` first —
-> they record the five capsule drops (prompts already written), what's already been generated
-> (Drop 2, via Higgsfield, approved — treat as the style bar to match), and the currently
+> they record the capsule's 3 back designs + universal chest logo (prompts already written),
+> what's already been generated (Drops 1, 2, 3, 4, via Higgsfield — treat Drop 2 as the style bar
+> to match), and the currently
 > recommended path. Respect the hard constraints: locked per-drop color palettes, flat
 > screen-print-safe illustration (no gradients/photoreal shading), legible club name/date text,
 > no invented placeholder text baked into the art.

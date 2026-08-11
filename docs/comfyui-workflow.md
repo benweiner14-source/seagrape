@@ -9,11 +9,12 @@ problem to two controls:
    woodcut / 1940s–70s botanical-field-guide-and-boating-manual linework, confident ink lines,
    slightly worn, **flat color only (no gradients, no photoreal shading, no airbrush)** — it has
    to survive as a 2–4 color screen print on a Comfort Colors tee.
-2. **Composition** — for the three drops built from Ben's actual on-the-water photos (Drop 1
-   lighthouse-from-water, Drop 4 manatee sign, Drop 5 channel markers), hold the real
-   composition/perspective from the photo rather than letting the model invent a generic
-   angle. For drops with no photo reference (logo, Drop 3 burgee), skip this — plain prompt is
-   enough since the burgee's geometry is simple and specified in text.
+2. **Composition** — for designs built from Ben's actual on-the-water photos (Drop 1
+   lighthouse-from-water, Drop 4 manatee sign), hold the real composition/perspective from the
+   photo rather than letting the model invent a generic angle. For designs with no photo
+   reference (the logo, the Drop 3 chest burgee), skip this — plain prompt is enough since the
+   geometry is simple and specified in text. *(Drop 5 — channel markers — is nixed, cut from the
+   capsule; no longer a target for this pipeline.)*
 
 Tune each drop until it's clearly the same illustration system *and* clearly the right subject.
 
