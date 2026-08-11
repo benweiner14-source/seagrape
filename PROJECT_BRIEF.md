@@ -196,28 +196,38 @@ size. Regenerate once Ben confirms how much text (if any) survives at that scale
 
 ## AI Tool Stack
 
-| Tool | Use |
-|------|-----|
-| **Recraft 4.1** | Primary shirt graphic generation — style lock, brand consistency across drops |
-| **Flux Kontext** (via Higgsfield) | Secondary illustration tool — looser editorial style, worth testing alongside Recraft |
-| **Ideogram v3** | Typography-heavy generations where text accuracy matters |
-| **Krea 2** | Mood and direction exploration, fights the generic AI look (access at krea.ai directly) |
-| **Seedream 5.0 Pro** | Lifestyle photography — photorealism, multi-reference consistency for lookbook shots |
-| **Seedance 2.5** | Video lookbook if that direction is pursued |
-| **Higgsfield** | Platform aggregating most of the above — primary workspace |
-| **GPT Image 2** | Avoid for illustration — too literal. Use only for compositing |
-| **Midjourney** | Mood boards and direction exploration only |
+**⚠️ Higgsfield is nixed as of now (Ben, latest) — Comfy Cloud is the generation pipeline going
+forward,** for capsule graphics *and* lifestyle photography, not just the graphics as originally
+scoped. Ben has Comfy Cloud set up on his end. This supersedes every "generated via Higgsfield"
+status note elsewhere in this doc — those record *how the existing 4 drop designs got made*, not
+the path forward. See `docs/comfyui-mcp-setup.md` (connect Claude Code to Comfy Cloud),
+`docs/comfyui-workflow.md` (node-graph plan), and `docs/comfyui-handoff.md` (self-contained
+handoff brief) — those are the live source of truth for the pipeline now, more so than the table
+below, which predates the Comfy switchover and hasn't been re-validated against it tool-by-tool.
 
-**Critical workflow note:** Graphics must be exported as transparent PNGs before mockup. The teal background in the lighthouse and channel marker designs is not a printed background — the shirt color IS the background. Match Comfort Colors 1717 "Blue Spruce" or "Dark Teal" to the graphic's teal. Print only cream and brick red on the teal shirt.
+| Tool | Use | Status |
+|------|-----|--------|
+| **Comfy Cloud** | Primary generation pipeline — illustration graphics AND lifestyle photography, going forward | ✅ Active, Ben has it set up |
+| **Recraft 4.1** | Illustration generation, pre-Comfy | Superseded by Comfy — may still be worth checking if its output quality beats what Comfy produces |
+| **Ideogram v3** | Typography-heavy generations where text accuracy matters | Still worth using standalone if Comfy's text rendering underperforms (see the text-legibility dial in `docs/comfyui-workflow.md`) |
+| **Krea 2** | Mood and direction exploration (krea.ai directly) | Still fine for exploration, not generation |
+| **Midjourney** | Mood boards and direction exploration only | Still fine for exploration, not generation |
+| ~~Flux Kontext (via Higgsfield)~~ | ~~Secondary illustration tool~~ | ❌ Nixed with Higgsfield |
+| ~~Seedream 5.0 Pro~~ | ~~Lifestyle photography~~ | ❌ Nixed with Higgsfield — lifestyle shots now go through Comfy too (partner nodes, see `docs/comfyui-workflow.md` Path A) |
+| ~~Seedance 2.5~~ | ~~Video lookbook~~ | ❌ Nixed with Higgsfield — revisit via Comfy if video is still pursued |
+| ~~Higgsfield~~ | ~~Platform aggregating most of the above~~ | ❌ **Nixed entirely** |
+| **GPT Image 2** | Avoid for illustration — too literal | Still avoid; usable inside Comfy as a partner node if ever needed for compositing |
+
+**Critical workflow note:** Graphics must be exported as transparent PNGs before mockup. The teal background in the lighthouse design is not a printed background — the shirt color IS the background. Match Comfort Colors 1717 "Blue Spruce" or "Dark Teal" to the graphic's teal. Print only cream and brick red on the teal shirt.
 
 ---
 
 ## Mockup Workflow
 
-1. **Export graphics** from Recraft as transparent PNG (remove teal background, keep cream and brick red illustration)
+1. **Export graphics** from Comfy Cloud as transparent PNG (remove teal/cream background, keep the illustration ink colors)
 2. **Printful Mockup Generator** (free) — place graphic on Comfort Colors 1717 in correct colorway to validate design
 3. **Placeit** ($14.95/month) — lifestyle mockups for the lookbook, larger library
-4. **Higgsfield lifestyle shots** — feed Printful mockup into Seedream 5.0 to generate Jupiter/marina context shots
+4. **Comfy Cloud lifestyle shots** — generate Jupiter/marina/course context shots directly in Comfy (partner node or SDXL/Flux pipeline, see `docs/comfyui-workflow.md`), then feed the Printful mockup in as the garment reference where supported
 
 ---
 
@@ -236,7 +246,7 @@ sourced actual examples of each of the above (a Ralph Lauren-esque boat nap shot
 sailboat catalog tearsheet, a European courtyard café candid, a Lafarve dock/backyard/beach set,
 plus a vintage-film laundromat shot for grain/color-grade reference). That folder's README maps
 each image to what to pull from it (composition vs. grade vs. candid energy) — attach the
-relevant one as a style reference when generating, same pattern as the Higgsfield workflow note
+relevant one as a style reference when generating, same pattern as the Comfy Cloud workflow note
 below.
 
 **⚠️ HARD RULE — every graphic prints on the BACK of the tee (see "The Capsule" header).**
@@ -247,7 +257,7 @@ Several of the `references/lifestyle/` images (the boat nap shot especially) are
 chest-forward in their original form — pull the *lighting, setting, and unbothered energy* from
 those, but flip the actual pose so his back reads clearly to camera.
 
-**Higgsfield prompt formula:**
+**Prompt formula (run through Comfy Cloud now, not Higgsfield):**
 > "35mm film photography, slightly overexposed, warm grain, [location], [subject — late 30s man], back to camera or rear three-quarter angle, wearing a [color] heavyweight oversized graphic tee with the design visible across the back, [styling — shorts, sandals, sunglasses], [candid action — not looking at camera], natural afternoon light, South Florida, [setting detail], 1980s editorial magazine feel, Ralph Lauren campaign aesthetic, color graded warm and slightly faded"
 
 ## Lookbook Scene Map
@@ -316,14 +326,20 @@ three shots should each land in a different one of those contexts rather than st
    Page 3 (this can read as the same round, later).
 2. **Clubhouse porch, cocktail hour** — leaning on the porch rail or bar, drink in hand, golden
    hour, chest logo clearly visible, relaxed mid-conversation energy, not posed for camera.
-3. **The airport** — walking through a small private terminal or airstrip, duffel bag over
-   shoulder, sunglasses, chest logo visible — the literal "wears it to the airport" pitch, proof
-   this piece leaves the club.
+3. **The airport, heading home** — **✅ refined (Ben, latest x2):** a specific narrative, not a
+   generic travel shot — a guy in his **20s** (younger than the late-30s subject used elsewhere in
+   this doc; he's the member's adult kid, not the primary buyer), just finished visiting his
+   parents at Admirals Cove, now waiting in the terminal for his flight home. **Straddling his
+   carry-on suitcase, sitting on top of it with the handle between his legs**, killing time at the
+   gate. Content, a little tired, unposed — not looking at camera, maybe on his phone or just
+   staring off. Departure gate/terminal visible in the background. Chest logo visible. This is the
+   literal "wears it to the airport" pitch from the brand's own copy, given an actual story and a
+   specific, real pose instead of a generic stock-travel moment.
 
 **Shot template (Page 1 / Shot 1 — MacArthur tee, boat nap, back to camera — fully worked example):**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
 
-**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Page 1/Shot 1 for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 11 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, framing, setting detail, light, color grade — back-to-camera for Pages 1–3, front-facing/candid for Page 4) before generating; don't paraphrase from the one-line scene descriptions above directly.
+**Comfy Cloud workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style/reference image (via `upload_file` + a partner node like `partner_generate`, or as an img2img/IP-Adapter reference — see `docs/comfyui-workflow.md`) before generating Page 1/Shot 1, for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 11 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, framing, setting detail, light, color grade — back-to-camera for Pages 1–3, front-facing/candid for Page 4) before generating; don't paraphrase from the one-line scene descriptions above directly.
 
 ---
 
@@ -367,7 +383,7 @@ three shots should each land in a different one of those contexts rather than st
 
 Ben runs the Ronnie2K brand at 2K Games (YouTube Shorts and social) and builds AI-powered side ventures in parallel. He's based in the Delray Beach / Boynton Beach area of South Florida. He golfs, boats, and has direct connections into South Florida private clubs. Admirals Cove is the first target because he has a connection there. The pitch needs to be tightened before that conversation happens.
 
-Ben's AI tool access is through Higgsfield, which aggregates most of the models listed above. He has tested Recraft 4.1 and confirmed it produces better results than GPT Image 2 for illustrated graphic work.
+Ben's AI generation now runs through **Comfy Cloud**, which he has set up directly — Higgsfield is nixed as of the latest update (see "AI Tool Stack"). Prior to the switch he used Higgsfield (which aggregated Recraft, Flux Kontext, Seedream, etc.) and confirmed Recraft 4.1 produced better illustration results than GPT Image 2; that read likely still holds as a quality bar to check Comfy's output against, even though the tool itself has changed.
 
 ---
 

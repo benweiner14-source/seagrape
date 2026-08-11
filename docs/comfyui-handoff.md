@@ -8,8 +8,16 @@ prompts for all three shirts + the universal chest logo).
 
 **⚠️ Capsule structure changed since this doc was first written — read `PROJECT_BRIEF.md`'s
 "Construction decision" note under "The Capsule" header before doing anything else.** It's now
-**3 back designs (Drops 1, 2, 4) + one universal small left-chest burgee logo (repurposed from
-Drop 3)** on every shirt — not 4-5 independent drops. Drop 5 (channel markers) is nixed entirely.
+**4 shirts**: 3 statement back designs (Drops 1, 2, 4, each also carrying a small left-chest
+burgee) + Drop 3 as its own 4th "essentials" tee (chest burgee only, no back graphic). Drop 5
+(channel markers) is nixed entirely. There's also a 12-shot lifestyle "Lookbook Scene Map" now —
+see `PROJECT_BRIEF.md` — that's a separate generation task from the 4 print graphics this doc
+focuses on, but uses the same Comfy pipeline.
+
+**⚠️ Higgsfield is nixed, Comfy Cloud is now the confirmed pipeline (Ben, latest) — for graphics
+*and* lifestyle photography.** Every "generated via Higgsfield" note below describes how the
+existing 4 designs got made *before* this switch, not the path forward. Don't read those as a
+reason to second-guess standing up Comfy — it's decided, Ben has it set up.
 
 ## Repo & assets
 - **Repo:** `benweiner14-source/seagrape`  **Branch:** `claude/seagrape-repo-setup-gfmnyb`
@@ -49,10 +57,10 @@ background so it can go straight into the Printful mockup generator.
 | ~~5 — Red Right Returning~~ | — | ❌ **Nixed, cut from the capsule** | No longer part of this project |
 
 **Note:** Designs 1, 3, and 4 above were generated via **Higgsfield directly**, not yet through
-Comfy — same as Drop 2. Comfy Cloud is still unused for this project's actual output so far;
-`docs/comfy-cloud-catalog.md` is still a template. If Higgsfield keeps landing the locked style
-this well, it may not be worth standing up the full Comfy pipeline at all except as a fallback —
-worth a call once the Drop 3 chest-logo resize (the one remaining generation task) is tested.
+Comfy — same as Drop 2. Comfy Cloud is unused for this project's actual output *so far*, but is
+now the confirmed pipeline for everything going forward (see the Higgsfield-nixed note above) —
+`docs/comfy-cloud-catalog.md` is still a template and should get filled in as the first real
+Comfy session runs.
 
 ## Hard constraints (do not violate)
 - **Style must stay flat illustration, not photoreal and not glossy digital art.** This project's
