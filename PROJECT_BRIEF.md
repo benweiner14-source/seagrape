@@ -203,6 +203,14 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 - 1980s editorial magazine feel
 - European courtyard energy — unbothered, not performing for camera
 
+**✅ Real reference images pulled and confirmed on-brand — see `references/lifestyle/`.** Ben
+sourced actual examples of each of the above (a Ralph Lauren-esque boat nap shot, the real J.Crew
+sailboat catalog tearsheet, a European courtyard café candid, a Lafarve dock/backyard/beach set,
+plus a vintage-film laundromat shot for grain/color-grade reference). That folder's README maps
+each image to what to pull from it (composition vs. grade vs. candid energy) — attach the
+relevant one as a style reference when generating, same pattern as the Higgsfield workflow note
+below.
+
 **Higgsfield prompt formula:**
 > "35mm film photography, slightly overexposed, warm grain, [location], [subject — late 30s man], wearing a [color] heavyweight oversized graphic tee, [styling — shorts, sandals, sunglasses], [candid action — not looking at camera], natural afternoon light, South Florida, [setting detail], 1980s editorial magazine feel, Ralph Lauren campaign aesthetic, color graded warm and slightly faded"
 
@@ -216,7 +224,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 **Shot 1 prompt (MacArthur tee — boat nap):**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying on the bow of a classic wooden sailboat, teak deck, arms behind his head, a folded newspaper resting on his chest. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes. Not looking at camera — completely unbothered, eyes closed or hidden. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above, looking down at the subject on the deck. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
 
-**Higgsfield workflow note:** Upload the aesthetic reference image (boat nap photo) as style reference before generating. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop.
+**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Shot 1 — it's the exact boat nap composition this prompt describes. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop.
 
 ---
 

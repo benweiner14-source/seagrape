@@ -8,6 +8,7 @@ client: Admirals Cove Golf & Yacht Club (Jupiter, FL). Full context: `PROJECT_BR
 ```
 PROJECT_BRIEF.md            # full project brief — brand, business model, all 5 capsule drops
 capsules/admirals-cove/refs/  # Ben's real reference photos (channel markers, manatee sign, burgee)
+references/lifestyle/       # real lookbook-aesthetic reference images (Ralph Lauren/J.Crew/Lafarve)
 comfyui/                     # starter ComfyUI workflow JSON + beginner import guide
 docs/                        # comfyui-*.md — Comfy Cloud MCP setup, node-graph plan, handoff brief
 ```
