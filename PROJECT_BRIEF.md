@@ -89,24 +89,29 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 
 ---
 
-## The Capsule — Four Drops *(originally five — Drop 5 nixed, see below)*
+## The Capsule — Four Shirts *(originally five drops — Drop 5 nixed, see below)*
 
-**✅ Construction decision (Ben, latest):** every tee in the capsule carries **two** elements —
-a **small Admirals Cove burgee on the left chest** (the same small logo, front, on every tee in
-the capsule — not a per-drop design) **plus** that drop's full illustrated graphic on the **back**.
-This repurposes **Drop 3 ("The Burgee")** — it's no longer a standalone fourth back-graphic drop,
-it's the universal small front-chest mark used on all of them. Practical effect:
+**✅ Construction decision (Ben, latest):** every tee in the capsule carries a **small Admirals
+Cove burgee on the left chest** (the same small logo, front, on every tee — not a per-drop
+design). **Drops 1, 2, and 4** additionally carry that drop's full illustrated graphic on the
+**back** — three statement tees. **Drop 3 ("The Burgee")** is repurposed as **both** the universal
+chest mark on all three statement tees **and its own fourth product** — a simpler "essentials"
+tee with just the chest burgee, no back graphic. Four shirts total, four lookbook pages. Practical
+effect:
 - **Drop 3's generated design** (`capsules/admirals-cove/drops/drop-3-the-burgee.png`) is a large,
   fully-legible typographic pennant ("ADMIRALS COVE" set into the flag, "JUPITER, FL — EST. 1987"
   beneath) — sized and detailed for a *back* placement, not a small ~3" left-chest mark. Before
   this can be used as the universal chest logo it likely needs a **simplified, smaller-scale pass**
   (less/no body text, cleaner at small size) — flag this to Ben rather than assuming the current
-  file is chest-ready as-is.
-- **Drops 1, 2, and 4** are the three back graphics this capsule now actually sells; each one's
-  tee also carries the small burgee on the left chest, front. Update each mockup/production spec
-  to include both placements, not just the back.
-- **Lifestyle shots:** still primarily back-focused per the hard rule below (that's where the real
-  graphic reads), but a front detail/flat-lay shot showing the small chest burgee is worth adding
+  file is chest-ready as-is. That smaller version is what both the chest placement on Drops 1/2/4
+  *and* the standalone Drop 3 essentials tee should use — same asset, two applications.
+- **Drops 1, 2, and 4** are the three statement back-graphic tees; each one's tee also carries the
+  small burgee on the left chest, front. Update each mockup/production spec to include both
+  placements, not just the back.
+- **Lifestyle shots:** still primarily back-focused per the hard rule below for Drops 1/2/4
+  (that's where the real graphic reads) — but Drop 3's essentials tee has **no back graphic**, so
+  its page (Page 4, see the Lookbook Scene Map below) is the one place front-facing shots are
+  fine and expected.
   to the lookbook as a secondary shot per tee, since it's no longer visible in a pure back shot.
 
 ### Drop 1 — "The Inlet" (Lighthouse from the Water)
@@ -248,10 +253,11 @@ those, but flip the actual pose so his back reads clearly to camera.
 ## Lookbook Scene Map
 
 **✅ Structure locked (Ben, latest):** one scene per shirt, **3 lifestyle images per shirt
-design**, one shirt per lookbook page. Three shirts in the capsule (Drop 1, 2, 4 — Drop 3 is the
-universal chest burgee, not its own page) → **9 lifestyle images total.** Every shot in every
-scene still follows the back-visible hard rule above — the scene changes, the back-to-camera
-framing discipline doesn't.
+design**, one shirt per lookbook page. **Four shirts, four pages** (Drops 1, 2, 4 as the three
+statement back-graphic tees, plus Drop 3 as its own fourth page — the chest-only essentials tee)
+→ **12 lifestyle images total.** Pages 1–3 (Drops 1, 2, 4) follow the back-visible hard rule above
+— that's where those graphics live. **Page 4 is the one exception**: Drop 3's tee has no back
+graphic, so its shots are front-facing/candid instead, built to show the small chest burgee.
 
 ### Page 1 — The MacArthur → Scene: **the sailboat**
 Classic wooden sailboat, teak deck, out on the water. Ties to the club's boating identity broadly
@@ -279,25 +285,45 @@ place the design depicts.
 3. **Leaning on the piling** — guy leaning back against a dock piling/rail, arms crossed or hands
    in pockets, back/shoulder to camera, watching boats pass through the inlet.
 
-### Page 3 — Manatee Zone → Scene: **golden hour, barefoot golf**
-**✅ Changed (Ben, latest):** deliberately *not* a boating scene despite the design's subject —
-sunset golf course instead, barefoot. Keeps the lookbook from being three straight water scenes
-in a row and covers the golf half of the club's identity (the capsule otherwise leans all-boating:
-Pages 1 and 2 are both on the water). Sunset/golden hour throughout, warm low light, long shadows.
-1. **Barefoot down the fairway** — guy walking barefoot down the fairway at sunset, back to
-   camera, golf bag slung over one shoulder, shoes tied together and hanging off the bag, long
-   golden shadows stretching across the grass.
-2. **The follow-through** — guy mid-swing follow-through on the tee box, back fully to camera,
-   barefoot in the grass, watching the ball fly toward the sunset — classic golf-swing silhouette,
-   the graphic reading clearly across his back at the top of the follow-through.
-3. **Watching the sunset** — guy sitting on the back of a golf cart (or clubhouse porch steps),
-   back/shoulders to camera, barefoot, feet up, clubs leaned beside him, watching the sun go down
-   over the course.
+### Page 3 — Manatee Zone → Scene: **8pm summer, empty course, friends messing around**
+**✅ Changed (Ben, latest x2):** deliberately *not* a boating scene despite the design's subject —
+golf instead, covers the half of the club's identity Pages 1/2 don't touch (both are on the
+water). **Refined further:** not a solo aspirational golf-swing shot — this is **8pm in a Florida
+summer, still light out but the course is empty, a small group of friends messing around, not
+taking it remotely seriously.** Loose, social, a little goofy — drinks in hand, nobody posing for
+a real golf photo. Warm fading dusk light, long shadows, sky starting to go purple-orange at the
+edges.
+1. **Two-up on the cart** — our guy and a buddy riding double on a golf cart (one driving, one
+   hanging off the back/side rail), cruising down a completely empty fairway, both mid-laugh, cart
+   kicking up a little dust. Back to camera, graphic reading clearly across his back as the cart
+   pulls away from camera.
+2. **Not-serious tee shot** — teeing off one-handed with a drink in the other hand, clearly not a
+   real swing, buddies cracking up in the background off to the side. Barefoot on the tee box,
+   back to camera, the whole course behind him empty and quiet.
+3. **Sprawled out on the green at dusk** — small group sprawled/sitting on the green, drinks
+   sitting in the grass, someone attempting a trick shot or a putt with their foot, general
+   goofing-around energy. Our guy in the foreground, back to camera, dusky purple-orange sky
+   behind the group.
+
+### Page 4 — The Burgee (essentials tee) → Scene: **wear it anywhere**
+No back graphic on this one — just the small chest burgee — so this is the one page where
+**front-facing/candid shots are correct**, not a violation of the back-visible rule. The point of
+this page is versatility: this is literally the shirt the brand's own pitch describes ("the thing
+a member actually wants to wear to the airport, on a boat, or to dinner after a round") — so the
+three shots should each land in a different one of those contexts rather than staying at the club.
+1. **Walking off 18** — walking off the 18th green toward the clubhouse at dusk, bag over one
+   shoulder, three-quarter angle, small chest burgee visible, same fading summer-evening light as
+   Page 3 (this can read as the same round, later).
+2. **Clubhouse porch, cocktail hour** — leaning on the porch rail or bar, drink in hand, golden
+   hour, chest logo clearly visible, relaxed mid-conversation energy, not posed for camera.
+3. **The airport** — walking through a small private terminal or airstrip, duffel bag over
+   shoulder, sunglasses, chest logo visible — the literal "wears it to the airport" pitch, proof
+   this piece leaves the club.
 
 **Shot template (Page 1 / Shot 1 — MacArthur tee, boat nap, back to camera — fully worked example):**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
 
-**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Page 1/Shot 1 for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 8 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, back-to-camera framing, setting detail, light, color grade) before generating; don't paraphrase from the one-line scene descriptions above directly.
+**Higgsfield workflow note:** Upload `references/lifestyle/ralph-lauren-boat-nap.jpg` as the style reference before generating Page 1/Shot 1 for the teak-deck lighting/setting — but note its pose is face-up, so the model needs the explicit face-down/back-to-camera framing above to actually show the graphic. If garment input is supported, upload the Printful mockup of the specific tee. Otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. **The other 11 shots aren't fully scripted yet** — write each one out using this shot as the template (same formula: genre/grain lead-in, framing, setting detail, light, color grade — back-to-camera for Pages 1–3, front-facing/candid for Page 4) before generating; don't paraphrase from the one-line scene descriptions above directly.
 
 ---
 
@@ -307,9 +333,11 @@ Pages 1 and 2 are both on the water). Sunset/golden hour throughout, warm low li
 
 **Structure:**
 1. Seagrape Supply Co. brand intro — what the studio is, the thesis
-2. Admirals Cove capsule — the story, the three shirts (+ the universal chest burgee)
-3. **One page per shirt** (see "Lookbook Scene Map" above): graphic flat lay (back design + chest
-   burgee detail) + the shirt's 3 scene lifestyle shots + shirt name and brief story
+2. Admirals Cove capsule — the story, the four shirts (three statement back-graphic tees + the
+   essentials chest-only tee)
+3. **One page per shirt, four pages** (see "Lookbook Scene Map" above): graphic flat lay (back
+   design + chest burgee detail for Pages 1–3; chest burgee detail only for Page 4) + the shirt's
+   3 scene lifestyle shots + shirt name and brief story
 4. Pre-order CTA and pricing
 
 **Color direction:** Split — dark navy/teal hero sections, cream/warm product sections
@@ -322,14 +350,14 @@ Pages 1 and 2 are both on the water). Sunset/golden hour throughout, warm low li
 
 - [ ] Generate Seagrape Supply Co. logo (prompt above — run in Recraft + Ideogram)
 - [x] Generate Drop 1 final version (lighthouse from water) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-1-the-inlet.png`)
-- [x] Generate Drop 3 (burgee flag) — generated, **role changed to universal left-chest logo** (see "Construction decision" under "The Capsule"), pending Ben's confirmation (`capsules/admirals-cove/drops/drop-3-the-burgee.png`)
+- [x] Generate Drop 3 (burgee flag) — generated, **role changed to dual-purpose: universal left-chest logo on Drops 1/2/4, plus its own 4th "essentials" tee (chest only, no back graphic)** (see "Construction decision" under "The Capsule"), pending Ben's confirmation (`capsules/admirals-cove/drops/drop-3-the-burgee.png`)
 - [x] Generate Drop 4 (manatee zone sign) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-4-manatee-zone.png`)
 - [x] ~~Generate Drop 5 (channel markers)~~ — nixed, cut from the capsule
 - [ ] Ben to send: the Seagrape Supply Co. logo, and slightly-updated versions of the existing drop designs (owed, not yet uploaded)
-- [ ] Simplify Drop 3 into a small-scale left-chest version (current file is sized/detailed for a back graphic, not a ~3" chest mark)
+- [ ] Simplify Drop 3 into a small-scale left-chest version (current file is sized/detailed for a back graphic, not a ~3" chest mark) — same asset used for both the chest placement on Drops 1/2/4 and the standalone Page 4 essentials tee
 - [ ] Export all graphics as transparent PNGs (Drop 3 already transparent; Drops 1, 2, 4 still need this pass)
-- [ ] Run all three shirts (back graphic + chest burgee each) through Printful mockup generator
-- [ ] Generate the 9 lookbook lifestyle shots (3 shirts × 3 scene shots each — see "Lookbook Scene Map"), starting with Page 1/Shot 1 (boat nap, MacArthur tee — fully scripted already)
+- [ ] Run all four shirts (three back-graphic + chest burgee, one chest-burgee-only) through Printful mockup generator
+- [ ] Generate the 12 lookbook lifestyle shots (4 shirts × 3 scene shots each — see "Lookbook Scene Map"), starting with Page 1/Shot 1 (boat nap, MacArthur tee — fully scripted already)
 - [ ] Build lookbook microsite
 - [ ] Structure and rehearse the Admirals Cove GM pitch
 
