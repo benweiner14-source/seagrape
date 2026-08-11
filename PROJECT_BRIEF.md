@@ -315,26 +315,28 @@ edges.
    goofing-around energy. Our guy in the foreground, back to camera, dusky purple-orange sky
    behind the group.
 
-### Page 4 — The Burgee (essentials tee) → Scene: **wear it anywhere**
-No back graphic on this one — just the small chest burgee — so this is the one page where
-**front-facing/candid shots are correct**, not a violation of the back-visible rule. The point of
-this page is versatility: this is literally the shirt the brand's own pitch describes ("the thing
-a member actually wants to wear to the airport, on a boat, or to dinner after a round") — so the
-three shots should each land in a different one of those contexts rather than staying at the club.
-1. **Walking off 18** — walking off the 18th green toward the clubhouse at dusk, bag over one
-   shoulder, three-quarter angle, small chest burgee visible, same fading summer-evening light as
-   Page 3 (this can read as the same round, later).
-2. **Clubhouse porch, cocktail hour** — leaning on the porch rail or bar, drink in hand, golden
-   hour, chest logo clearly visible, relaxed mid-conversation energy, not posed for camera.
-3. **The airport, heading home** — **✅ refined (Ben, latest x2):** a specific narrative, not a
-   generic travel shot — a guy in his **20s** (younger than the late-30s subject used elsewhere in
-   this doc; he's the member's adult kid, not the primary buyer), just finished visiting his
-   parents at Admirals Cove, now waiting in the terminal for his flight home. **Straddling his
-   carry-on suitcase, sitting on top of it with the handle between his legs**, killing time at the
-   gate. Content, a little tired, unposed — not looking at camera, maybe on his phone or just
-   staring off. Departure gate/terminal visible in the background. Chest logo visible. This is the
-   literal "wears it to the airport" pitch from the brand's own copy, given an actual story and a
-   specific, real pose instead of a generic stock-travel moment.
+### Page 4 — The Burgee (essentials tee) → Scene: **the airport, heading home**
+**✅ Changed (Ben, latest x3): all three shots are now airport-themed**, not a multi-context
+montage (dropped the earlier "boat / dinner / airport" versatility spread). No back graphic on
+this tee — just the small chest burgee — so this is still the one page where **front-facing/
+candid shots are correct**, not a violation of the back-visible rule. One continuous narrative
+across all three shots: a guy in his **20s** (younger than the late-30s subject used elsewhere in
+this doc; he's the member's adult kid, not the primary buyer) has just finished visiting his
+parents at Admirals Cove and is heading home — arriving at the terminal, waiting at the gate,
+boarding. Still lands the brand's own "wears it to the airport" pitch line, now as a proper
+mini-story instead of one generic travel shot.
+1. **Arriving at the terminal** — walking into the departures terminal from curbside, carry-on
+   trailing behind him, one strap of a backpack over one shoulder. Content, a little wistful,
+   not looking at camera. Ordinary terminal entrance light and signage softly out of focus in the
+   background. Small chest burgee visible.
+2. **Waiting at the gate** — **✅ (Ben, latest x2):** a specific narrative pose, not a generic
+   travel shot — now sitting at his departure gate, killing time. **Straddling his carry-on
+   suitcase, sitting on top of it with the handle between his legs.** Content, a little tired,
+   unposed — not looking at camera, maybe on his phone or just staring off. Departure gate/
+   terminal visible in the background. Chest logo visible.
+3. **Boarding** — walking down the jet bridge toward the plane door, boarding pass in one hand,
+   bag over the other shoulder, looking ahead not at camera. The last beat of the story — he's
+   actually leaving now. Fluorescent jet-bridge light, small chest burgee visible.
 
 ## All 12 Lookbook Prompts (paste-ready — GPT Image 2 via Comfy's `partner_generate`)
 
@@ -380,16 +382,16 @@ detail (this supersedes the older SDXL/LoRA "Path B" in that doc — don't stand
 **Shot 3 — Sprawled on the green at dusk:**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A small group of guys in their late 20s/30s sprawled out and sitting on a putting green at dusk, drinks sitting in the grass beside them, one of them attempting a trick putt with his foot, everyone mid-laugh. Our guy in the foreground, back to camera, wearing a cream heavyweight oversized graphic tee, the design across the back clearly visible and unobstructed. Empty golf course around them, dusky purple-orange sky at the horizon, 8pm Florida summer light fading. Color graded warm and slightly faded, film grain, soft halation around bright areas. Loose, social, unposed — feels like a candid snapshot from someone's phone, not a professional shoot."
 
-### Page 4 — The Burgee essentials tee (cream tee, front-facing OK — no back graphic to protect)
+### Page 4 — The Burgee essentials tee (cream tee, front-facing OK — no back graphic to protect, all three shots airport-themed)
 
-**Shot 1 — Walking off 18:**
-> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s walking off the 18th green toward the clubhouse at dusk, golf bag slung over one shoulder, three-quarter angle toward camera. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo on the left chest, khaki shorts. Not looking at camera, relaxed, unposed. 8pm Florida summer light, long shadows, sky starting to go warm orange at the edges, clubhouse lights just visible in the background. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid moment from a private roll of film."
+**Shot 1 — Arriving at the terminal:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A guy in his early-to-mid 20s walking into an airport departures terminal from curbside, a carry-on suitcase trailing behind him, one strap of a backpack over his other shoulder. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo visible on the left chest, shorts, sneakers. Content, a little wistful, not looking at camera — just finished visiting his parents at the club, now heading home. Ordinary terminal entrance light, departure signage and other travelers softly out of focus in the background. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid photo, not a professional shoot."
 
-**Shot 2 — Clubhouse porch, cocktail hour:**
-> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s leaning on a clubhouse porch rail, a drink in hand, mid-conversation with someone just out of frame, golden hour light. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo clearly visible on the left chest, khaki shorts. Relaxed, unposed, not looking at camera. Warm South Florida evening light, string lights or porch lanterns starting to glow behind him. Color graded warm and slightly faded, film grain, soft halation around bright areas. European courtyard energy — unbothered, not performing for camera."
-
-**Shot 3 — The airport, heading home:**
+**Shot 2 — Waiting at the gate:**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A guy in his early-to-mid 20s sitting at an airport departure gate, straddling his carry-on suitcase and sitting on top of it, the extended handle between his legs, killing time before his flight. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo visible on the left chest, shorts, sneakers. Looking down at his phone or staring off, not at camera — content, a little tired, just finished visiting his parents at the club, headed home. Departure gate and terminal windows visible in the soft-focus background, ordinary indoor terminal light. Color graded warm and slightly faded, film grain. Feels like a candid photo, not a professional shoot."
+
+**Shot 3 — Boarding:**
+> "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A guy in his early-to-mid 20s walking down a jet bridge toward the plane door, boarding pass in one hand, a carry-on bag over his other shoulder, looking ahead — not at camera. He is wearing a cream heavyweight oversized tee with a small navy and copper burgee logo visible on the left chest, shorts, sneakers. Content, unhurried — the last leg of leaving the club behind and heading home. Fluorescent jet-bridge light, the plane door and a sliver of tarmac visible ahead of him. Color graded warm and slightly faded, film grain, soft halation around bright areas. Feels like a candid photo, not a professional shoot."
 
 **Comfy Cloud workflow note:** Provider `openai/gpt-image-2` via `partner_generate`, 9:16, no LoRA/ControlNet setup needed for any of these. Where a reference image is noted, upload it via `upload_file` first. If garment input is supported, upload the relevant Printful mockup alongside the prompt so the exact graphic/color renders correctly; otherwise composite the graphic onto the shirt afterward in Canva or Photoshop. Generate 2–3 seed variants per shot and keep the best — per the hard rules above, discard anything that goes front-facing on Pages 1–3 or fails to show the back graphic clearly.
 
