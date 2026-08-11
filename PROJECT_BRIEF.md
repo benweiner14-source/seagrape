@@ -279,14 +279,20 @@ place the design depicts.
 3. **Leaning on the piling** — guy leaning back against a dock piling/rail, arms crossed or hands
    in pockets, back/shoulder to camera, watching boats pass through the inlet.
 
-### Page 3 — Manatee Zone → Scene: **the center console, on the water**
-Idling a center console boat through a real no-wake zone — the literal context the sign lives in.
-1. **Stepping off at the dock** — guy stepping off the center console onto the dock, back to
-   camera, boat and water behind him, dock line in hand.
-2. **Idling through mangroves** — guy at the helm of the center console, back/rear three-quarter
-   to camera, one hand on the wheel, moving slow through a mangrove-lined no-wake channel.
-3. **Tying off** — guy bent slightly at the dock cleat tying off a line, back and shoulders to
-   camera, boat alongside, the graphic reading clearly across his back even in the bent-forward pose.
+### Page 3 — Manatee Zone → Scene: **golden hour, barefoot golf**
+**✅ Changed (Ben, latest):** deliberately *not* a boating scene despite the design's subject —
+sunset golf course instead, barefoot. Keeps the lookbook from being three straight water scenes
+in a row and covers the golf half of the club's identity (the capsule otherwise leans all-boating:
+Pages 1 and 2 are both on the water). Sunset/golden hour throughout, warm low light, long shadows.
+1. **Barefoot down the fairway** — guy walking barefoot down the fairway at sunset, back to
+   camera, golf bag slung over one shoulder, shoes tied together and hanging off the bag, long
+   golden shadows stretching across the grass.
+2. **The follow-through** — guy mid-swing follow-through on the tee box, back fully to camera,
+   barefoot in the grass, watching the ball fly toward the sunset — classic golf-swing silhouette,
+   the graphic reading clearly across his back at the top of the follow-through.
+3. **Watching the sunset** — guy sitting on the back of a golf cart (or clubhouse porch steps),
+   back/shoulders to camera, barefoot, feet up, clubs leaned beside him, watching the sun go down
+   over the course.
 
 **Shot template (Page 1 / Shot 1 — MacArthur tee, boat nap, back to camera — fully worked example):**
 > "35mm film photography, slightly overexposed, warm grain, vintage 1980s editorial feel. A man in his late 30s lying face-down on the bow of a classic wooden sailboat, teak deck, head turned to one side and resting on his folded forearms, one arm dangling loosely off the edge of the deck, a folded newspaper resting on the teak beside him. He is wearing a cream heavyweight oversized graphic tee, navy shorts, no shoes — the design across the back of the tee clearly visible and unobstructed. Not looking at camera — completely unbothered, eyes closed. Sparkling blue water visible on both sides of the boat, white sail rope in the upper frame. Warm afternoon South Florida light, golden hour. Shot from slightly above and behind, looking down at his back. Color graded warm and slightly faded, film grain, soft halation around bright areas. Ralph Lauren 1983 campaign aesthetic. Feels like a photo from someone's private roll of film, not a professional shoot."
