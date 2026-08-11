@@ -39,11 +39,18 @@ Printful mockup generator.
 ## Status per drop (don't re-generate what's already approved)
 | Drop | Name | Status | Notes |
 |---|---|---|---|
-| 1 | The Inlet (lighthouse from water) | Not generated to satisfaction | Needs the water-level, off-center composition — see hard constraint below |
-| 2 | The MacArthur (editorial still life) | ✅ **Generated & approved via Higgsfield** — treat as the style bar to match, don't re-run | Center chest, cream blank |
-| 3 | The Burgee (flag typography) | Prompt approved in concept, not yet generated | No photo reference needed — geometry is in the text |
-| 4 | Manatee Zone (speed sign) | Not yet generated | Best starter drop — clearest photo reference, see `comfyui/` starter workflow |
-| 5 | Red Right Returning (channel markers) | Not yet generated | Two markers, two colors, symmetrical-but-not composition |
+| 1 | The Inlet (lighthouse from water) | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-1-the-inlet.png` | Nails the off-center, water-level composition. Still needs the transparent-background export pass (teal fill = shirt color) |
+| 2 | The MacArthur (editorial still life) | ✅ **Generated & approved via Higgsfield** — treat as the style bar to match, don't re-run — `capsules/admirals-cove/drops/drop-2-the-macarthur.png` | Center chest, cream blank |
+| 3 | The Burgee (flag typography) | ✅ Generated via Higgsfield, already transparent — `capsules/admirals-cove/drops/drop-3-the-burgee.png` | Direction changed from the original icon+wordmark spec to an integrated typographic pennant — confirm with Ben which version to lock in before batching variants |
+| 4 | Manatee Zone (speed sign) | ✅ Generated via Higgsfield, pending Ben's final approval — `capsules/admirals-cove/drops/drop-4-manatee-zone.png` | Still needs the transparent-background export pass (cream fill = shirt color) |
+| 5 | Red Right Returning (channel markers) | Not yet generated | Two markers, two colors, symmetrical-but-not composition — best next Comfy target now that a reference photo is still needed, see `capsules/admirals-cove/refs/` |
+
+**Note:** Drops 1, 3, and 4 above were generated via **Higgsfield directly**, not yet through
+Comfy — same as Drop 2. Comfy Cloud is still unused for this project's actual output so far;
+`docs/comfy-cloud-catalog.md` is still a template. If Higgsfield keeps landing the locked style
+this well, it may not be worth standing up the full Comfy pipeline at all except as a fallback —
+worth a call once Drop 5 (the one remaining drop, and the one most likely to need real
+composition control from a reference photo) is tested.
 
 ## Hard constraints (do not violate)
 - **Style must stay flat illustration, not photoreal and not glossy digital art.** This project's

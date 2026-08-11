@@ -92,7 +92,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 ## The Capsule — Five Drops
 
 ### Drop 1 — "The Inlet" (Lighthouse from the Water)
-**Status:** Prompt refined, not yet generated to satisfaction. Earlier versions were too generic (symmetrical lighthouse flanked by palms). Direction shifted to view from the water looking back.
+**Status:** ✅ Generated — see `capsules/admirals-cove/drops/drop-1-the-inlet.png`. Nails the target direction: lighthouse emerges off-center from the treeline at water level, marsh grass foreground, not the earlier symmetrical-flanked-by-palms miss. Deep teal fill still needs the transparent-background export pass before it's mockup-ready (teal = shirt color, not a printed background — see the AI Tool Stack workflow note below). Pending Ben's final approval.
 
 **Blank:** Deep teal Comfort Colors 1717 (match to Blue Spruce or Dark Teal colorway)
 **Colors:** Cream illustration, brick red on lighthouse tower only, teal = shirt color (transparent background)
@@ -106,7 +106,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 ---
 
 ### Drop 2 — "The MacArthur" (Editorial Still Life)
-**Status:** ✅ Generated and approved. Strong design.
+**Status:** ✅ Generated and approved. Strong design. File: `capsules/admirals-cove/drops/drop-2-the-macarthur.png`.
 
 **Blank:** Cream or Ivory Comfort Colors 1717
 **Colors:** Black ink line work, minimal warm accent on whiskey glass, cream background
@@ -121,7 +121,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 ---
 
 ### Drop 3 — "The Burgee" (Flag Typography)
-**Status:** ✅ Prompt written and approved in concept. Generate and confirm.
+**Status:** ✅ Generated — see `capsules/admirals-cove/drops/drop-3-the-burgee.png`. Already exported with a transparent background. Note: the generated version evolved from the original concept — instead of a solid navy pennant icon with the wordmark set below it, the text ("ADMIRALS COVE") is set directly into the flag body following its curve, with a single navy circle (not the copper/bronze called for in the prompt below) and "JUPITER, FL — EST. 1987" beneath. Flag it to Ben as a direction change to confirm before finalizing — either lock this typographic-pennant version in as the new Drop 3, or regenerate closer to the original icon+wordmark spec.
 
 **Blank:** Cream Comfort Colors 1717
 **Colors:** Navy blue, copper/bronze, cream
@@ -135,7 +135,7 @@ The pilot client is **Admirals Cove Golf & Yacht Club** in Jupiter, Florida.
 ---
 
 ### Drop 4 — "Manatee Zone" (Speed Sign)
-**Status:** Prompt written, not yet generated.
+**Status:** ✅ Generated — see `capsules/admirals-cove/drops/drop-4-manatee-zone.png`. Matches the prompt closely: weathered crooked pilings, orange-bordered sign, red circle placed right on "SLOW SPEED" (matches the real sign), "MINIMUM WAKE" bold beneath, mangroves in the background. Background reads white/near-white rather than warm cream and still needs the transparent-background export pass before mockup (cream = shirt color, not a printed background). Pending Ben's final approval.
 
 **Blank:** Cream Comfort Colors 1717
 **Colors:** Cream background, dark navy illustration, orange on sign border, red circle on sign face
@@ -247,11 +247,11 @@ below.
 ## What's Left To Do (In Order)
 
 - [ ] Generate Seagrape Supply Co. logo (prompt above — run in Recraft + Ideogram)
-- [ ] Generate Drop 1 final version (lighthouse from water — prompt above)
-- [ ] Generate Drop 3 (burgee flag — prompt above)
-- [ ] Generate Drop 4 (manatee zone sign — prompt above)
+- [x] Generate Drop 1 final version (lighthouse from water) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-1-the-inlet.png`)
+- [x] Generate Drop 3 (burgee flag) — generated, direction changed from original concept, pending Ben's confirmation (`capsules/admirals-cove/drops/drop-3-the-burgee.png`)
+- [x] Generate Drop 4 (manatee zone sign) — generated, pending Ben's approval (`capsules/admirals-cove/drops/drop-4-manatee-zone.png`)
 - [ ] Generate Drop 5 (channel markers — prompt above)
-- [ ] Export all graphics as transparent PNGs
+- [ ] Export all graphics as transparent PNGs (Drop 3 already transparent; Drops 1, 2, 4 still need this pass)
 - [ ] Run all five drops through Printful mockup generator
 - [ ] Generate lifestyle shots in Higgsfield (start with Shot 1 — boat nap, MacArthur tee)
 - [ ] Generate remaining 4 lifestyle shots
